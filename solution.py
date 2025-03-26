@@ -5,15 +5,6 @@ from state import State
 import heapq
 
 
-"""
-solution.py
-
-This file is a template you should use to implement your solution.
-
-You should implement 
-
-COMP3702 2024 Assignment 1 Support Code
-"""
 
 class StateNode:
     def __init__(self, env, state, parent, action_from_parent, path_steps, path_cost):
